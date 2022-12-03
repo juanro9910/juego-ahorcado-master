@@ -77,7 +77,7 @@ function pista() {
   document.getElementById("hueco-pista").innerHTML = palabras[rand][1];
 }
 
-// Compruba si ha finalizado
+// Compreuba si ha finalizado
 function compruebaFin() {
   if( oculta.indexOf("_") == -1 ) {
     document.getElementById("msg-final").innerHTML = "Felicidades !!";
